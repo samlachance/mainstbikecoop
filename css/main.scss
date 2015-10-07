@@ -1,0 +1,55 @@
+// Colors
+$white: #FEFEFE;
+$black: #000;
+$gray: #787878;
+$dark-gray: #404040;
+$light-gray: #B8B8B8;
+
+$primary: #d64c30;
+$secondary: #000;
+$accent-1: #000;
+$accent-2: #000;
+
+div#logo {
+  height: 100vh;
+  background-image: url(../img/background.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  div.image-container {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+    img {
+      display: block;
+      width: 30%;
+    }
+  }
+
+
+  nav {
+    height: 10vh;
+    color: $black;
+    font-size: 5vh;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+
+
+    ul{
+      list-style: none;
+      padding: none;
+      margin: 0;
+
+      li {
+      display: inline-block;
+      margin: 0 30px;
+      }
+    }
+  }
+}

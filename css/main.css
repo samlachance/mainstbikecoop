@@ -1,0 +1,32 @@
+div#logo {
+  height: 100vh;
+  background-image: url(../img/background.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  div#logo div.image-container {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; }
+    div#logo div.image-container img {
+      display: block;
+      width: 30%; }
+  div#logo nav {
+    height: 10vh;
+    color: #000;
+    font-size: 5vh;
+    width: 100%;
+    margin: 0;
+    text-align: center; }
+    div#logo nav ul {
+      list-style: none;
+      padding: none;
+      margin: 0; }
+      div#logo nav ul li {
+        display: inline-block;
+        margin: 0 30px; }
+
+/*# sourceMappingURL=main.css.map */
