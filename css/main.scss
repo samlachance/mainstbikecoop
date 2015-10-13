@@ -14,7 +14,7 @@ $dark-gray: #404040;
 $light-gray: #B8B8B8;
 
 $primary: #D33220;
-$secondary: #000;
+$secondary: #9EC3E0;
 $accent-1: #000;
 $accent-2: #000;
 
@@ -226,4 +226,9 @@ section#mission {
       text-align: center;
     }
   }
+}
+
+section#about {
+  background-color: $secondary;
+  height: 70vh;
 }

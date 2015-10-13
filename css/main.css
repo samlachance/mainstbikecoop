@@ -155,4 +155,8 @@ section#mission ul {
     display: inline-block;
     text-align: center; }
 
+section#about {
+  background-color: #9EC3E0;
+  height: 70vh; }
+
 /*# sourceMappingURL=main.css.map */
