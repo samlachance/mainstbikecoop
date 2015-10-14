@@ -28,7 +28,7 @@
   to {
     opacity: 1; } }
 body {
-  font-family: 'Roboto', sans-serif; }
+  font-family: "Roboto", sans-serif; }
 
 a {
   text-decoration: none;
@@ -46,7 +46,7 @@ section {
   align-items: center; }
   section h2 {
     text-align: center;
-    font-family: 'Archivo Black', sans-serif;
+    font-family: "Archivo Black", sans-serif;
     font-size: 5em;
     color: #D33220;
     margin-top: 0; }
@@ -134,7 +134,7 @@ section#logo {
           color: #D33220; }
       section#logo nav ul li.filled {
         color: #FEFEFE;
-        background-color: #D33220;
+        background-color: #9EC3E0;
         border-radius: 10px; }
 
 section#mission ul {
@@ -157,6 +157,42 @@ section#mission ul {
 
 section#about {
   background-color: #9EC3E0;
+  height: 70vh;
+  flex-direction: row;
+  justify-content: center; }
+  section#about div.video-quote {
+    height: 422px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px; }
+    section#about div.video-quote div.triangle {
+      width: 0;
+      height: 0;
+      border-top: 60px solid transparent;
+      border-bottom: 60px solid transparent;
+      border-right: 60px solid #FEFEFE; }
+    section#about div.video-quote div.quote {
+      background-color: #FEFEFE;
+      width: 650px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 40px;
+      border-radius: 20px; }
+    section#about div.video-quote q {
+      font-family: "Roboto", sans-serif;
+      font-style: italic;
+      color: #404040;
+      font-size: 5vh; }
+
+section#get-involved {
+  background-color: #D33220;
+  height: 70vh; }
+
+section#contact {
+  background-color: #FEFEFE;
   height: 70vh; }
 
 /*# sourceMappingURL=main.css.map */

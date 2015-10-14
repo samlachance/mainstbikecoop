@@ -18,6 +18,10 @@ $secondary: #9EC3E0;
 $accent-1: #000;
 $accent-2: #000;
 
+// Typefaces
+$heading: 'Archivo Black', sans-serif;
+$standard: 'Roboto', sans-serif;
+
 // Fancy CSS3 animation stuff
 
 @keyframes fadein {
@@ -59,7 +63,7 @@ $accent-2: #000;
 
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: $standard;
 }
 
 a {
@@ -81,7 +85,7 @@ section {
 
   h2 {
     text-align: center;
-    font-family: 'Archivo Black', sans-serif;
+    font-family: $heading;
     font-size: 5em;
     color: $primary;
     margin-top: 0;
@@ -197,7 +201,7 @@ section#logo {
 
       li.filled {
         color: $white;
-        background-color: $primary;
+        background-color: $secondary;
         border-radius: 10px;
       }
     }
@@ -231,4 +235,56 @@ section#mission {
 section#about {
   background-color: $secondary;
   height: 70vh;
+  flex-direction: row;
+  justify-content: center;
+
+  div.video-quote {
+    height: 422px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+
+    div.triangle {
+      width: 0; 
+      height: 0; 
+      border-top: 60px solid transparent;
+      border-bottom: 60px solid transparent; 
+      border-right:60px solid $white; 
+    }
+
+    div.quote {
+      background-color: $white;
+      width: 650px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 40px;
+      border-radius: 20px;
+    }
+
+
+
+
+
+    q{
+      font-family: $standard;
+      font-style: italic;
+      color: $dark-gray;
+      font-size: 5vh;
+    }
+
+  }
 }
+
+section#get-involved {
+  background-color: $primary;
+  height: 70vh;
+}
+
+section#contact {
+  background-color: $white;
+  height: 70vh;
+}
+
