@@ -40,13 +40,15 @@ ul {
 
 section {
   height: 100vh;
+  padding: 30px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
   section h2 {
     text-align: center;
-    font-family: "Archivo Black", sans-serif;
+    font-family: "Days One", sans-serif;
     font-size: 5em;
     color: #D33220;
     margin-top: 0; }
@@ -63,7 +65,8 @@ section#logo {
   background-image: url(../img/background.jpg);
   background-position: bottom;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  padding: 0; }
   section#logo div.mini-info {
     width: 100%;
     height: 10vh;
@@ -155,24 +158,24 @@ section#mission ul {
     display: inline-block;
     text-align: center; }
 
-section#about {
+section#video {
   background-color: #9EC3E0;
-  height: 70vh;
+  height: inherit;
   flex-direction: row;
   justify-content: center; }
-  section#about div.video-quote {
+  section#video div.video-quote {
     height: 422px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 50px; }
-    section#about div.video-quote div.triangle {
+    section#video div.video-quote div.triangle {
       width: 0;
       height: 0;
       border-top: 60px solid transparent;
       border-bottom: 60px solid transparent;
       border-right: 60px solid #FEFEFE; }
-    section#about div.video-quote div.quote {
+    section#video div.video-quote div.quote {
       background-color: #FEFEFE;
       width: 650px;
       height: 100%;
@@ -181,11 +184,14 @@ section#about {
       justify-content: center;
       padding: 0 40px;
       border-radius: 20px; }
-    section#about div.video-quote q {
+    section#video div.video-quote q {
       font-family: "Roboto", sans-serif;
       font-style: italic;
       color: #404040;
       font-size: 5vh; }
+
+section#about {
+  height: 80vh; }
 
 section#get-involved {
   background-color: #D33220;

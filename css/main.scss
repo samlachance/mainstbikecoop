@@ -19,7 +19,7 @@ $accent-1: #000;
 $accent-2: #000;
 
 // Typefaces
-$heading: 'Archivo Black', sans-serif;
+$heading: 'Days One', sans-serif;
 $standard: 'Roboto', sans-serif;
 
 // Fancy CSS3 animation stuff
@@ -59,8 +59,7 @@ $standard: 'Roboto', sans-serif;
 
 
 
-
-
+// General styles
 
 body {
   font-family: $standard;
@@ -78,6 +77,8 @@ ul {
 
 section {
   height: 100vh;
+  padding: 30px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -102,12 +103,17 @@ section.wrapper {
   margin: 0 auto;
 }
 
+
+// Section specific styles
+
+
 section#logo {
   height: 100vh;
   background-image: url(../img/background.jpg);
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
+  padding: 0;
 
 
   div.mini-info {
@@ -166,15 +172,13 @@ section#logo {
     align-content: space-around;
     opacity: 0;
     -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fadein 5s; /* Firefox < 16 */
+    -moz-animation: fadein 5s; /* Firefox < 16 */
     -ms-animation: fadein 5s; /* Internet Explorer */
     -o-animation: fadein 5s; /* Opera < 12.1 */
-     animation: fadein 5s;
-     animation-delay: 1.5s;
-     animation-fill-mode: forwards;
-
-
-
+    animation: fadein 5s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+    
     ul{
       list-style: none;
       padding: none;
@@ -185,8 +189,6 @@ section#logo {
       flex-direction: row;
       justify-content: space-around;
       align-content: center;
-
-
 
       li {
         text-align: center;
@@ -232,9 +234,9 @@ section#mission {
   }
 }
 
-section#about {
+section#video {
   background-color: $secondary;
-  height: 70vh;
+  height: inherit;
   flex-direction: row;
   justify-content: center;
 
@@ -276,6 +278,11 @@ section#about {
     }
 
   }
+}
+
+section#about {
+  height: 80vh;
+
 }
 
 section#get-involved {
