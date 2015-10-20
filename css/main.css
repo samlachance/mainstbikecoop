@@ -200,7 +200,9 @@ section#video {
       font-size: 5vh; }
 
 section#about {
-  height: 80vh; }
+  height: 80vh;
+  padding-right: 0;
+  padding-left: 0; }
 
 section#get-involved {
   background-color: #D33220;
