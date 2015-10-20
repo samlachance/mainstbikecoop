@@ -268,38 +268,67 @@ section#contact {
     justify-content: space-around;
     flex-wrap: wrap;
     width: 100%; }
-    section#contact div.contact-flex-container div {
+    section#contact div.contact-flex-container div.contact-child {
       background-color: #9EC3E0;
-      width: 30%;
-      padding: 10px;
+      width: 45%;
       display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center;
       border-radius: 10px;
       color: #4D4D3D; }
-    section#contact div.contact-flex-container div.visit-us div.map {
-      height: 300px;
-      width: 300px;
-      background-color: #FEFEFE;
-      padding: 0; }
-    section#contact div.contact-flex-container div.visit-us p.address {
-      font-size: 2em; }
-    section#contact div.contact-flex-container div.visit-us div.bike-lane {
-      width: 40%;
-      background-color: #6DAE3F;
-      border: 2px solid #FEFEFE;
-      color: #FEFEFE; }
-      section#contact div.contact-flex-container div.visit-us div.bike-lane p {
-        font-size: 1em;
-        margin-bottom: 0; }
+    section#contact div.contact-flex-container div.visit-us {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between; }
+      section#contact div.contact-flex-container div.visit-us h3 {
+        width: 100%; }
+      section#contact div.contact-flex-container div.visit-us div.map {
+        padding: 0;
+        width: 50%; }
+        section#contact div.contact-flex-container div.visit-us div.map img {
+          width: 100%; }
+      section#contact div.contact-flex-container div.visit-us div.address {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; }
+        section#contact div.contact-flex-container div.visit-us div.address p.address {
+          font-size: 2em;
+          margin: 0 0 20px; }
+        section#contact div.contact-flex-container div.visit-us div.address div.bike-lane {
+          width: 60%;
+          background-color: #6DAE3F;
+          border: 2px solid #FEFEFE;
+          color: #FEFEFE;
+          border-radius: 5px;
+          padding: 5px; }
+          section#contact div.contact-flex-container div.visit-us div.address div.bike-lane p {
+            font-size: 1em;
+            margin-bottom: 0; }
+    section#contact div.contact-flex-container div.contact-us {
+      font-size: 1.5em; }
+      section#contact div.contact-flex-container div.contact-us ul {
+        text-align: left;
+        margin: 0; }
+        section#contact div.contact-flex-container div.contact-us ul li {
+          margin: 20px 0; }
     section#contact div.contact-flex-container div.connect-with-us {
-      width: 100%; }
+      width: 100%;
+      margin-top: 150px; }
   section#contact h3.find-us {
     margin: 0; }
   section#contact ul.social-media li {
     display: inline-block;
     font-size: 2em;
     margin: 0 30px; }
+
+footer {
+  background-color: #9EC3E0;
+  color: #FEFEFE;
+  text-align: center;
+  height: 10vh; }
+  footer p {
+    margin: 0; }
 
 /*# sourceMappingURL=main.css.map */
