@@ -374,7 +374,19 @@ section#get-involved {
 
 section#contact {
   background-color: $white;
-  height: 70vh;
+  height: 100vh;
+
+  h3.find-us {
+    margin: 0;
+  }
+  ul.social-media {
+
+    li{
+      display: inline-block;
+      font-size: 2em;
+      margin: 0 30px;
+    }
+  }
 }
 
 

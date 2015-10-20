@@ -256,6 +256,12 @@ section#get-involved {
 
 section#contact {
   background-color: #FEFEFE;
-  height: 70vh; }
+  height: 100vh; }
+  section#contact h3.find-us {
+    margin: 0; }
+  section#contact ul.social-media li {
+    display: inline-block;
+    font-size: 2em;
+    margin: 0 30px; }
 
 /*# sourceMappingURL=main.css.map */
