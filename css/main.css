@@ -282,21 +282,21 @@ section#contact {
     section#contact div.contact-flex-container div.visit-us {
       flex-direction: row;
       flex-wrap: wrap;
-      justify-content: space-between; }
+      justify-content: space-around; }
       section#contact div.contact-flex-container div.visit-us h3 {
         width: 100%; }
       section#contact div.contact-flex-container div.visit-us div.map {
         padding: 0;
         width: 50%; }
         section#contact div.contact-flex-container div.visit-us div.map img {
-          width: 100%; }
+          width: 300px; }
       section#contact div.contact-flex-container div.visit-us div.address {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center; }
         section#contact div.contact-flex-container div.visit-us div.address p.address {
-          font-size: 2em;
+          font-size: 2vw;
           margin: 0 0 20px; }
         section#contact div.contact-flex-container div.visit-us div.address div.bike-lane {
           width: 60%;
@@ -309,7 +309,7 @@ section#contact {
             font-size: 1em;
             margin-bottom: 0; }
     section#contact div.contact-flex-container div.contact-us {
-      font-size: 1.5em; }
+      font-size: 1.7em; }
       section#contact div.contact-flex-container div.contact-us ul {
         text-align: left;
         margin: 0; }
