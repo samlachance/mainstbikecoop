@@ -14,9 +14,9 @@ $dark-gray: #4D4D3D;
 $light-gray: #B8B8B8;
 
 $primary: #D33220;
-$secondary: #9EC3E0;
+$secondary: #94D0F4;
 $accent-1: #6DAE3F;
-$accent-2: #000;
+$accent-2: #FFEB00;
 
 // Typefaces
 $heading: 'Days One', sans-serif;
@@ -379,8 +379,12 @@ section#contact {
   background-color: $secondary;
   height: 100vh;
 
+  a {
+    color: $accent-2;
+  }
+
   h2 {
-    color: $dark-gray;
+    color: $accent-2;
   }
 
   div.contact-flex-container {
@@ -399,7 +403,7 @@ section#contact {
       align-items: center;
       text-align: center;
       border-radius: 10px;
-      color: $dark-gray;
+      color: $accent-2;
     }
 
     div.visit-us {
