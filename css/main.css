@@ -193,11 +193,11 @@ section#video {
       justify-content: center;
       padding: 0 40px;
       border-radius: 20px; }
-    section#video div.video-quote q {
+    section#video div.video-font-sizeuote q {
       font-family: "Roboto", sans-serif;
       font-style: italic;
       color: #4D4D3D;
-      font-size: 5vh; }
+      font-size: 4vh; }
 
 section#about {
   height: 80vh; }
