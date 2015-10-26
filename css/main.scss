@@ -221,7 +221,6 @@ section#mission {
   ul {
     display: block;
     width: 100%;
-    margin: 100px 0 0 0;
     display: flex;
     flex-direction: row;
     align-content: stretch;
@@ -232,10 +231,12 @@ section#mission {
       width: 30%;
       margin: 0;
       padding: 0;
-      height: 300px;
-      background-color: $gray;
-      display: inline-block;  
       text-align: center;
+
+      img {
+        width: 100%;
+        border-radius: 5px;
+      }
     }
   }
 }
