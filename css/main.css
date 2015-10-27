@@ -163,12 +163,29 @@ section#mission ul {
   justify-content: space-between; }
   section#mission ul li {
     width: 30%;
+    height: 370px;
     margin: 0;
     padding: 0;
-    text-align: center; }
-    section#mission ul li img {
-      width: 100%;
-      border-radius: 5px; }
+    border-radius: 10px;
+    background-position: center;
+    background-size: 264px 370px;
+    display: flex;
+    align-items: center; }
+    section#mission ul li span {
+      display: block;
+      padding: 20px 0;
+      text-align: center;
+      font-size: 3em;
+      font-weight: bold;
+      color: #D33220;
+      background-color: rgba(255, 255, 255, 0.7);
+      width: 100%; }
+  section#mission ul li.repair {
+    background-image: url(../img/mission-repair.jpg); }
+  section#mission ul li.safety {
+    background-image: url(../img/mission-safety.jpg); }
+  section#mission ul li.community {
+    background-image: url(../img/mission-mass.jpg); }
 
 section#video {
   background-color: #94D0F4;
