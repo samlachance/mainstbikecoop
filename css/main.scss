@@ -413,17 +413,68 @@ section#contact {
 
 
     div.contact-flex-child {
-      width: 32%;
-      background-color: $secondary;
-      color: $white;
+      width: calc(32% - 40px);
+      background-color: rgba(148,208,244, 0.3);
+      color: $dark-gray;
       border-radius: 10px;
+      border: 2px solid $secondary;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 20px;
+
+      h3 {
+        margin-top: 0;
+      }
+      
+      img {
+        width: 300px;
+        border-radius: 10px;          
+        margin: 0 0 32px 0;
+      }
+
+      p.address {
+        font-size: 2em;
+        text-align: center;
+
+      }
+      
+      div.bike-lane{
+        background-color: $accent-1;
+        width: 300px;
+        color: $white;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0px;
+        font-size: 1.1em;
+      }        
+
+
     }
 
     div.contact-flex-child.visit {
 
     }
+
     div.contact-flex-child.contact {
-      
+      ul{
+        margin-top: 32px;
+        li{
+          border-radius: 10px;
+          color: $dark-gray;
+          border: 2px solid $secondary;
+          font-size: 2em;
+          padding: 30px 40px;;
+          text-align: center;
+          margin-bottom: 100px;
+        }
+
+        li:nth-last-child(1) {
+          margin-bottom: 0;
+        }
+      }  
     }
     div.contact-flex-child.connect {
       

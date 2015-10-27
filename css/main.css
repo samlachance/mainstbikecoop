@@ -289,10 +289,46 @@ section#contact {
     display: flex;
     justify-content: space-between; }
     section#contact div.contact-flex-parent div.contact-flex-child {
-      width: 32%;
-      background-color: #94D0F4;
-      color: #FEFEFE;
-      border-radius: 10px; }
+      width: calc(32% - 40px);
+      background-color: rgba(148, 208, 244, 0.3);
+      color: #4D4D3D;
+      border-radius: 10px;
+      border: 2px solid #94D0F4;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 20px; }
+      section#contact div.contact-flex-parent div.contact-flex-child h3 {
+        margin-top: 0; }
+      section#contact div.contact-flex-parent div.contact-flex-child img {
+        width: 300px;
+        border-radius: 10px;
+        margin: 0 0 32px 0; }
+      section#contact div.contact-flex-parent div.contact-flex-child p.address {
+        font-size: 2em;
+        text-align: center; }
+      section#contact div.contact-flex-parent div.contact-flex-child div.bike-lane {
+        background-color: #6DAE3F;
+        width: 300px;
+        color: #FEFEFE;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0px;
+        font-size: 1.1em; }
+    section#contact div.contact-flex-parent div.contact-flex-child.contact ul {
+      margin-top: 32px; }
+      section#contact div.contact-flex-parent div.contact-flex-child.contact ul li {
+        border-radius: 10px;
+        color: #4D4D3D;
+        border: 2px solid #94D0F4;
+        font-size: 2em;
+        padding: 30px 40px;
+        text-align: center;
+        margin-bottom: 100px; }
+      section#contact div.contact-flex-parent div.contact-flex-child.contact ul li:nth-last-child(1) {
+        margin-bottom: 0; }
 
 footer {
   background-color: #94D0F4;
