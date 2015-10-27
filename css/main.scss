@@ -204,9 +204,15 @@ section#logo {
       }
 
       li.filled {
-        color: $white;
-        background-color: $secondary;
+        color: $primary;
         border-radius: 10px;
+        border: 2px solid $primary;
+        padding: 0;
+
+        a {
+          display: block;
+          padding: 8px 10px;
+        }
       }
     }
   }
@@ -369,16 +375,15 @@ section#get-involved {
 }
 
 section#contact {
-
   background-color: $secondary;
   height: 100vh;
 
   a {
-    color: $accent-2;
+    color: $white;
   }
 
   h2 {
-    color: $accent-2;
+    color: $white;
   }
 
   div.contact-flex-container {
@@ -397,7 +402,7 @@ section#contact {
       align-items: center;
       text-align: center;
       border-radius: 10px;
-      color: $accent-2;
+      color: $white;
     }
 
     div.visit-us {
@@ -489,6 +494,3 @@ footer {
     margin: 0;
   }
 }
-
-
-
