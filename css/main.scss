@@ -203,7 +203,7 @@ section#logo {
         }
       }
 
-      li.filled {
+      li:hover {
         color: $primary;
         border-radius: 10px;
         border: 2px solid $primary;
