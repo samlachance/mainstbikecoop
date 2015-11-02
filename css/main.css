@@ -142,12 +142,12 @@ section#logo {
         padding: 8px 10px; }
         section#logo nav ul li a {
           color: #D33220; }
-      section#logo nav ul li.filled {
+      section#logo nav ul li:hover {
         color: #D33220;
         border-radius: 10px;
         border: 2px solid #D33220;
         padding: 0; }
-        section#logo nav ul li.filled a {
+        section#logo nav ul li:hover a {
           display: block;
           padding: 8px 10px; }
 
